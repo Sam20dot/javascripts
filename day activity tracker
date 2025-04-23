@@ -1,0 +1,13 @@
+// we are going to mae thie things for recording the informations of my daily life 
+let myday = []
+function addactivity(activity, time, date) {
+    myday.push({ activity, time, date })
+    return " the activity of the day is: " + activity + " the time is :" + time + "and the date is :" + date;
+
+}
+let activity = prompt(" enter the activity you have done");
+let time = prompt(" enter the time you have done this activity")
+let date = prompt("enter the date you have done to this activity")
+console.log(addactivity(activity, time, date))
+console.log(myday)
+  // this is the codes i ma studying this from the books called the eloquent_javascript edition 4
